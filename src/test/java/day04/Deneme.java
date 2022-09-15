@@ -49,7 +49,7 @@ public class Deneme {
             System.out.println("Ana Sayfa Testi PASSED");
         } else System.out.println("Ana Sayfa Testi FAILED");
 
-        //   4. 'Kayıt Ol / Giriş Yap' düğmesine tıklayı
+        //   4. 'Kayıt Ol / Giriş Yap' düğmesine tıklayın
         driver.findElement(By.xpath("//a[@href='/login']")).click();
 
         //   5. 'Yeni Kullanıcı Kaydı'nı doğrulayın! görünür
