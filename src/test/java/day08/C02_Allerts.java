@@ -14,11 +14,11 @@ import java.time.Duration;
 
 public class C02_Allerts {
     /*
-    Bir web sitesine girdigimizde kjarsimiza bir uyarı mesaji ya da bir butona
+    Bir web sitesine girdigimizde karsimiza bir uyarı mesaji ya da bir butona
     tikladigimizda uyari cikabilir eger bu uyariya incele(mause sag tik-inspect) yapabiliyorsak
     bu tur allert lerde HTML allert denir  ve istedigimiz locate i alabiliriz.
     Ama gelen uyari kutusuna mudahale(sag tik-inspect) edemiyorsak bu tur allert lere js allert denir.
-    js allerrtlere mudahale edebilmek icin
+    js allertlere mudahale edebilmek icin
     - tamam ya da ok icin => driver.switchTo().alert().accept() kullanilir.
     - iptal icin => driver.switchTo().alert().dismiss() methodu kullanilir.
     - Alert icindeki mesaji almak icin --> driver.switchTo().alert().getText() kullanilir.
@@ -36,8 +36,8 @@ Bir metod olusturun: acceptAlert
 Bir metod olusturun: dismissAlert
 2. butona tıklayın, uyarıdaki Cancel butonuna tıklayın ve result mesajının
 “successfuly” icermedigini test edin.
-Bir metod olusturun: sendKeysAlert
 
+Bir metod olusturun: sendKeysAlert
 3. butona tıklayın, uyarıdaki metin kutusuna isminizi yazin, OK butonuna
 tıklayın ve result mesajında isminizin görüntülendiğini doğrulayın.
      */
