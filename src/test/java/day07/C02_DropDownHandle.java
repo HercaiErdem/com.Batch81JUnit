@@ -21,9 +21,9 @@ public class C02_DropDownHandle {
            Arama kutusunun yanindaki kategori menusundeki kategori sayisinin 45
            oldugunu testedin
            -Test2
-           1.Kategori menusunden Books seceneginisecin
-           2.Arama kutusuna Java yazin vearatin
-           3.Bulunan sonuc sayisiniyazdirin
+           1.Kategori menusunden Books secenegini secin
+           2.Arama kutusuna Java yazin ve aratin
+           3.Bulunan sonuc sayisini yazdirin
            4.Sonucun Java kelimesini icerdigini testedin
 */
     WebDriver driver;
@@ -61,9 +61,9 @@ public class C02_DropDownHandle {
 //           1.Kategori menusunden Books secenegini secin
         WebElement ddm = driver.findElement(By.xpath("//*[@id='searchDropdownBox']"));
         ddm.sendKeys("Books");
-//           2.Arama kutusuna Java yazin vearatin
+//           2.Arama kutusuna Java yazin ve aratin
         driver.findElement(By.cssSelector("input[id='twotabsearchtextbox']")).sendKeys("Java", Keys.ENTER);
-//           3.Bulunan sonuc sayisiniyazdirin
+//           3.Bulunan sonuc sayisini yazdirin
         WebElement sonucYazisi = driver.findElement(By.xpath("//*[@class='a-section a-spacing-small a-spacing-top-small']"));
         System.out.println(sonucYazisi.getText());
 
