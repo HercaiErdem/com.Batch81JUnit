@@ -2,20 +2,20 @@ package review;
 
 public class ActionsClassInSelenium {
     /*
-    TestNg, JUnit, Cucumber'da Actions class’ini kullanarak mouse ve klavye
-    ile yapabilecegimiz tum islevleri gerceklestirebiliriz.
+    TestNg, JUnit, Cucumber'da Actions Class’ini kullanarak gerçekte mouse ve klavye
+    ile yapabildiğimiz tum islevleri gerceklestirebiliriz.
 
-    Bunun için gerçekleştireceğimiz adımlar;
-    1. Actions class’ta bir object oluşturulur.
+    Bunun için yapmamız gereken adımlar;
+    1. Actions class’ta bir object oluştururuz.
    Syntax=> Actions actions= new Actions(driver);
 
-   2. Erişmek istenilen WebElement öğesini bulunur.
+   2. Erişmek istenilen WebElement öğesini bulunuz.
    Örneğin=> WebElement sample = driver.findElement(By.id("****"));
 
-   3. Sonrada  bu webelement üzerinde action gerçekleştirilir. Örneğin Webelemente çift tıklayalım
+   3. Sonrada  bu webelement üzerinde "action" gerçekleştiririz. Örneğin Webelemente çift tıklamak için
      actions.doubleClick(sample).perform( );
 
-   ** action. ın calisması icin sonuna mutlaka perform( ) eklenir.
+   ** action. ın calışması icin sonuna mutlaka perform( ) eklenir.
 
    Action Class Örneği;
    Actions action = new Actions(driver);
