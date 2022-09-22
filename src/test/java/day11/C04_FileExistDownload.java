@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class C04_FileExist {
+public class C04_FileExistDownload {
 
     @Test
     public void test1() {
