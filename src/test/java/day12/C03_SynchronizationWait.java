@@ -62,6 +62,7 @@ public class C03_SynchronizationWait extends TestBaseBeforeAfter {
         mümkün olmaz. Bu durumda bekleme işlemi için explicitWait'i locate ile birlikte kullanırız
          */
 
+        // Ogrencilerin Slack e yazdigi kisa notlar
          /*
         implicitly wait testten once calsitirilir ve calistirilan testin tamamina etki eder
         explicitly wait ise once obje olarak olusturulur sonra
