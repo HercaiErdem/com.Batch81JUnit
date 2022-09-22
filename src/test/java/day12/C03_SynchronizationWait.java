@@ -62,14 +62,16 @@ public class C03_SynchronizationWait extends TestBaseBeforeAfter {
         mümkün olmaz. Bu durumda bekleme işlemi için explicitWait'i locate ile birlikte kullanırız
          */
 
+         /*
+        implicitly wait testten once calsitirilir ve calistirilan testin tamamina etki eder
+        explicitly wait ise once obje olarak olusturulur sonra
+         sadece kullanildigi yerde ve belirlenen sart a gore calisir class ya da test in tamamina uygulanmaz
+         */
 
-        //implicitly wait testten once calsitirilir ve calistirilan testin tamamina etki eder
-        //explicitly wait ise once obje olarak olusturulur sonra
-        // sadece kullanildigi yerde ve belirlenen sart a gore calisir class ya da test in tamamina uygulanmaz
-
-        //İmplicitly ile her elementi Max 15 sn bekletiyoruz ama bir yerde 30 saniye beklemesi gerekiyorsa
-        // o zaman eksplicitly kullanıyoruz
-
+        /*
+        İmplicitly ile her elementi Max 15 sn bekletiyoruz ama bir yerde 30 saniye beklemesi gerekiyorsa
+        o zaman eksplicitly kullanıyoruz
+        */
 
     }
 }
