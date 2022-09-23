@@ -1,6 +1,6 @@
 package day13;
 
-public class C03_WebTaables {
+public class C03_WebTables {
     /*
 Bir onceki class'taki adrese gidelim
 login() methodunu kullanarak sayfaya giris yapalim

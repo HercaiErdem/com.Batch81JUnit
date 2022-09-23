@@ -7,10 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import utilities.TestBaseBeforeAfter;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class C02_WebTales extends TestBaseBeforeAfter {
+public class C02_WebTables extends TestBaseBeforeAfter {
     /*
     Bir class oluşturun : C02_WebTables
 login( ) metodun oluşturun ve oturum açın.
