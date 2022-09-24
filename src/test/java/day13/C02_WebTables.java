@@ -39,7 +39,7 @@ Table body’sinde bulunan satirlari(rows) konsolda yazdırın.
     private void table() {
         //Tüm table body’sinin boyutunu(sutun sayisi) bulun.
         /*
-        Tabloda <table> tag'ı altında tablonun başlığını gösteren <thead> tagı bulunu. Eğer başlıkta satır(row) varsa
+        Tabloda <table> tag'ı altında tablonun başlığını gösteren <thead> tagı bulunur. Eğer başlıkta satır(row) varsa
         <thead> tag'ı altında <tr>(satır-row) tagı vardır. Ve başlıktaki sütunlara yani hücrelere(cell) de <th> tag'ı
         ile ulaşılır.
         Başlığın tablodaki verilere <tbody> tag'ı ile altındaki satırlara(row) <tr> tag'ı ile sütunlara yani hücrelere
@@ -47,7 +47,7 @@ Table body’sinde bulunan satirlari(rows) konsolda yazdırın.
          */
         List<WebElement> sutunSayisi = driver.findElements(By.xpath("//thead//tr//th"));
         System.out.println("Sutun Sayisi = " + sutunSayisi.size());
-        //Table’daki tum body’I ve başlıkları(headers) konsolda yazdırın.
+        //Table’daki tum body’i ve başlıkları(headers) konsolda yazdırın.
         WebElement basliklar = driver.findElement(By.xpath("//thead//tr"));
         System.out.println("Basliklar : " + basliklar.getText());
         WebElement body = driver.findElement(By.xpath("//tbody"));

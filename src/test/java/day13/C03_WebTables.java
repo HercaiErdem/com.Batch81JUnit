@@ -27,14 +27,18 @@ int sutun = 4;
         int satir = 3;
         int sutun = 4;
         //input olarak verilen satır sayısı ve sutun sayısına sahip cell'deki text'i yazdıralım
-       // WebElement cell = driver.findElement(By.xpath("//tbody//tr["+satir+"]//td["+sutun+"]"));
-     //   System.out.println("Satır ve sutundaki text : "+cell.getText());
+        // WebElement cell = driver.findElement(By.xpath("//tbody//tr["+satir+"]//td["+sutun+"]"));
+        //   System.out.println("Satır ve sutundaki text : "+cell.getText());
         //Price başlığındaki tum numaraları yazdırınız
         List<WebElement> priceBasligi = driver.findElements(By.xpath("//tbody//tr//td[6]"));
-        for (WebElement w:priceBasligi) {
+        for (WebElement w : priceBasligi) {
             System.out.println(w.getText());
         }
+        //--Lambda ile yazdirma---
+        System.out.println("=====Lambda ile yazdirma======");
+        priceBasligi.stream().forEach(t -> System.out.println(t.getText()));
     }
+
     private void login() {
         driver.get("https://www.hotelmycamp.com/admin/HotelRoomAdmin");
         //driver.findElement(By.xpath("//*[@id='UserName']")).click();

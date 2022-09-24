@@ -20,7 +20,7 @@ public class C04_ReadExcel  {
         Workbook workbook = WorkbookFactory.create(fis);
         //-Turkce baskentler sutununu yazdiralim
         int sonSatir= workbook.getSheet("Sayfa1").getLastRowNum();
-        // .getLastRowNum() methodu bize excel syfasindaki tum satir numarasini verir.
+        // .getLastRowNum() methodu bize excel sayfasindaki tum satir numarasini verir.
         System.out.println(sonSatir);
         String turkceBaskentler= "";
 
