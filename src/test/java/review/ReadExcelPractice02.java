@@ -11,7 +11,7 @@ import java.io.IOException;
 public class ReadExcelPractice02 {
 
     @Test
-    public void test1() throws IOException {
+    public void readExcelTest1() throws IOException {
         String dosyaYolu = "src/resources/ulkeler.xlsx";
         FileInputStream fis = new FileInputStream(dosyaYolu);
         Workbook workbook = WorkbookFactory.create(fis);

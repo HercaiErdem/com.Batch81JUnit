@@ -12,7 +12,7 @@ import java.io.IOException;
 public class ReadExcelPractice01 {
 
     @Test
-    public void test1() throws IOException {
+    public void readExcelTest1() throws IOException {
         //- Dosya yolunu bir String degiskene atayalim
         String dosyaYolu= "src/resources/ulkeler.xlsx";
         //- FileInputStream objesi olusturup,parametre olarak dosya yolunu girelim

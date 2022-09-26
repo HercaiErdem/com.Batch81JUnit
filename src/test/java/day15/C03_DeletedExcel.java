@@ -2,7 +2,7 @@ package day15;
 
 import org.junit.Test;
 
-public class C02_DeletedExcel {
+public class C03_DeletedExcel {
     @Test
     public void delatedExcelCell() {
         //-Dosya yolunu bir String degiskene atayalim
