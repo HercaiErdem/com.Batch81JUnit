@@ -20,7 +20,7 @@ public class C05_ReadExcel {
         //-Workbook objesi olusturalim,parameter olarak fileInputStream objesini girelim
         //-WorkbookFactory.create(fileInputStream)
         Workbook workbook = WorkbookFactory.create(fis);
-        //-sayfa 2'ye gidip satir sayisinin 6, kullanilan satir sayisinin ise 3 oldugunu test edin
+        //-sayfa 2'ye gidip satir sayisinin 6, kullanilan satir sayisinin ise 4 oldugunu test edin
         int sonSatir = workbook.getSheet("Sayfa2").getLastRowNum();
         System.out.println(sonSatir);
         int expectedLastRow = 6;

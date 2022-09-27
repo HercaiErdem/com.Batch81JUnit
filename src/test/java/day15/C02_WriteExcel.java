@@ -29,7 +29,7 @@ public class C02_WriteExcel {
         //Dosyayi kaydedelim
         FileOutputStream fos = new FileOutputStream(dosyaYolu); // dosyanin acisini yapiyoruz
 
-        // Excel de dosyamiza veri girisi yaptiktan sonradosyayi akisa aldigimiz gibi sonlandirmamiz gerekir.
+        // Excel de dosyamiza veri girisi yaptiktan sonra dosyayi akisa aldigimiz gibi sonlandirmamiz gerekir.
         // Sonrasinda da workbook objemize kayit etmemiz gerekir.
         workbook.write(fos); // Write methodu() ile sonlandirdigimiz islemi workbook a yazdirdik
         // 10)Dosyayi kapatalim
