@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
+import java.util.List;
 
 public class C01_Assertions {
 
@@ -54,8 +55,6 @@ public class C01_Assertions {
        //  bastigimizda “Invalid email address” uyarisi ciktigini test edelim
        WebElement invalid = driver.findElement(By.xpath("//*[text()='Invalid email address.']"));
        Assert.assertTrue(invalid.isDisplayed());
-
-
 
 
 
