@@ -22,9 +22,9 @@ public class C01_ReadExcel {
         String tumTablo = "";
         for (int i = 0; i <= sonSatir; i++) {
             tumTablo = workbook.getSheet("Sayfa1").getRow(i).getCell(0).toString() + " "
-                    + workbook.getSheet("Sayfa1").getRow(i).getCell(1) + " "
-                    + workbook.getSheet("Sayfa1").getRow(i).getCell(2) + " "
-                    + workbook.getSheet("Sayfa1").getRow(i).getCell(3) + " ";
+                    + workbook.getSheet("Sayfa1").getRow(i).getCell(1).toString() + " "
+                    + workbook.getSheet("Sayfa1").getRow(i).getCell(2).toString() + " "
+                    + workbook.getSheet("Sayfa1").getRow(i).getCell(3).toString() + " ";
             System.out.println(tumTablo);
 
         }
