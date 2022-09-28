@@ -6,12 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
 import utilities.TestBaseBeforeAfter;
-import utilities.TestBaseBeforeClassAfterClass;
 
 import java.io.File;
 import java.io.IOException;
 
-public class IstedigimizWebElementGetScreenShot extends TestBaseBeforeAfter {
+public class WebElementGetScreenShot extends TestBaseBeforeAfter {
     @Test
     public void test1() throws IOException {
         //BestBuy a gidelim

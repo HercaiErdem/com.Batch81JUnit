@@ -8,7 +8,7 @@ import utilities.TestBaseBeforeClassAfterClass;
 import java.io.File;
 import java.io.IOException;
 
-public class TumSayfaVeIstelilenYerScreenShot01 extends TestBaseBeforeClassAfterClass {
+public class AllPageAndWebElementScreenShot01 extends TestBaseBeforeClassAfterClass {
     //hepsiburada.com a gidin https://www.hepsiburada.com
     // Dell Laptop aratalim
     // Tum sayfanin screen shor ini alalim
