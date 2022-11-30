@@ -35,7 +35,7 @@ public class C03_DeletedExcel {
         Row row = sheet.getRow(3); // Sayfa 1 deki 3. satiri bu sekilde seceriz
         //- Cell objesi olusturun row.getCell(index)
         Cell cell = row.getCell(3); // Satir secimi yapildiktan sonra hucre secimi bu sekilde yapilir.
-        //-3. Satır 3. Cell'deki veriyi silelim
+        //- 3. Satır 3. Cell'deki veriyi silelim
         row.removeCell(cell);
         /*
         Bir cell deki data yi silmek icin row objesine ihtiyac vardir.
