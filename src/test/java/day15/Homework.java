@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Homework {
-    // 1.satirdaki 2.hucreye gidelim ve yazdiralim
+    //1.satirdaki 2.hucreye gidelim ve yazdiralim
     //1.satirdaki 2.hucreyi bir string degiskene atayalim ve yazdiralim
     //2.satir 4.cell’in afganistan’in baskenti oldugunu test edelim
     //Satir sayisini bulalim
