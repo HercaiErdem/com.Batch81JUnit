@@ -37,6 +37,4 @@ public class Sample2 {
         WebElement aramaTusu = driver.findElement(By.id("twotabsearchtextbox"));
         aramaTusu.sendKeys("Winter Dress", Keys.ENTER);
     }
-
-
 }
