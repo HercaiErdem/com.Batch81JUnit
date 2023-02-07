@@ -1,12 +1,12 @@
 package day05;
 
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
 
-import java.time.Duration;
+import java.time.*;
 
 
 public class C01_Junit {
@@ -41,7 +41,6 @@ public class C01_Junit {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("https://www.hepsiburada.com");
     }
-
 }
   //method olusturtuk, burada junit ile testlerimizi yapabilmek icin üzerine @ annotations dedigimiz @ isaretini
   // koyuyoruz ve test yazıyoruz
