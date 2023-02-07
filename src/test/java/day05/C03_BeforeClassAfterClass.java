@@ -37,7 +37,7 @@ olusturacagimiz method'u static yapmammiz gerekiyor
     /*
     Calismasini istemedigimiz test icin @Ignore notasyonu yazilir
      */
-    @Ignore ("Ahmet'in testi, beni ilgilendirmez")
+    @Ignore("Ahmet'in testi, beni ilgilendirmez")
     public void method1() throws InterruptedException {
         Thread.sleep(1000);
         driver.get("https://www.amazon.com");
