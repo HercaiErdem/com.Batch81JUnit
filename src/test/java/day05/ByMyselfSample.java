@@ -80,10 +80,7 @@ public class ByMyselfSample {
         login2.click();
 
 
-
     }
-
-
 }
 
 
