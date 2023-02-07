@@ -13,9 +13,9 @@ import java.time.Duration;
 public class C03_BeforeClassAfterClass {
 
     /*
-BeforeClass ve AfterClass notasyonlari kullaniyorsak
-olusturacagimiz method'u static yapmammiz gerekiyor
- */
+  BeforeClass ve AfterClass notasyonlari kullaniyorsak
+  olusturacagimiz method'u static yapmammiz gerekiyor
+  */
 
     static WebDriver driver;
 
