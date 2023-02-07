@@ -60,9 +60,5 @@ public class C04_JunitCheckBox {
             checkbox2.click();
 
         }
-
-
     }
-
-
 }
