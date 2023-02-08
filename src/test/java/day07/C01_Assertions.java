@@ -1,15 +1,9 @@
 package day07;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
 
 import java.time.Duration;
 
@@ -39,28 +33,22 @@ public class C01_Assertions {
         // Thread.sleep(2000);
         //  driver.close();
     }
-   @Test
-    public void test1(){
-       driver.get("http://automationpractice.com/index.php");
 
-       //  Sign in butonuna basalim
-       WebElement singinButonu = driver.findElement(By.xpath("//*[@class='login']"));
-       singinButonu.click();
+    @Test
+    public void test1() {
+        driver.get("http://automationpractice.com/index.php");
 
-      // Email kutusuna @isareti olmayan bir mail yazip enter’a
-       WebElement emailKutusu = driver.findElement(By.xpath("//input[@id='email_create']"));
-       emailKutusu.sendKeys("HercaiSeval.gmail.com"+ Keys.ENTER);
+        //  Sign in butonuna basalim
+        WebElement singinButonu = driver.findElement(By.xpath("//*[@class='login']"));
+        singinButonu.click();
 
-       //  bastigimizda “Invalid email address” uyarisi ciktigini test edelim
-       WebElement invalid = driver.findElement(By.xpath("//*[text()='Invalid email address.']"));
-       Assert.assertTrue(invalid.isDisplayed());
+        // Email kutusuna @isareti olmayan bir mail yazip enter’a
+        WebElement emailKutusu = driver.findElement(By.xpath("//input[@id='email_create']"));
+        emailKutusu.sendKeys("HercaiSeval.gmail.com" + Keys.ENTER);
 
-
-
-
-
-
+        //  bastigimizda “Invalid email address” uyarisi ciktigini test edelim
+        WebElement invalid = driver.findElement(By.xpath("//*[text()='Invalid email address.']"));
+        Assert.assertTrue(invalid.isDisplayed());
 
     }
-
 }
