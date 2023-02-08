@@ -52,7 +52,5 @@ public class C01_RadioButton {
         if (!femaleButton.isSelected()) {
             femaleButton.click();
         }
-
     }
-
 }
