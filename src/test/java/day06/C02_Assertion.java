@@ -11,8 +11,8 @@ import java.time.Duration;
 
 public class C02_Assertion {
     /*
-    Amazon sayfasina gidelim
-    3 farkli test method()u olusturalim
+     Amazon sayfasina gidelim
+     3 farkli test method()u olusturalim
       a) URL'nin amazon icerdigini test edelim
       b) Title in facebook icermedigini test edelim
       c) Sol ust kosede amazon logosunun gorundugunu test edelim
@@ -66,5 +66,4 @@ public class C02_Assertion {
         String actualUrl = driver.getCurrentUrl();
         Assert.assertNotEquals(expectedUrl, actualUrl);
     }
-
 }
