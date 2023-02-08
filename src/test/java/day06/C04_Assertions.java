@@ -64,5 +64,4 @@ public class C04_Assertions {
         String unExpectedTitle = "youtube";
         Assert.assertNotEquals(unExpectedTitle, actualTitle);
     }
-
 }
