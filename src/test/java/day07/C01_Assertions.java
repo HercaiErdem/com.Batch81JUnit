@@ -12,7 +12,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
-import java.util.List;
 
 public class C01_Assertions {
 
@@ -48,7 +47,7 @@ public class C01_Assertions {
        WebElement singinButonu = driver.findElement(By.xpath("//*[@class='login']"));
        singinButonu.click();
 
-   // Email kutusuna @isareti olmayan bir mail yazip enter’a
+      // Email kutusuna @isareti olmayan bir mail yazip enter’a
        WebElement emailKutusu = driver.findElement(By.xpath("//input[@id='email_create']"));
        emailKutusu.sendKeys("HercaiSeval.gmail.com"+ Keys.ENTER);
 
