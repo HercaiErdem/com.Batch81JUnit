@@ -25,7 +25,7 @@ public class C02_DropDownHandle {
            2.Arama kutusuna Java yazin ve aratin
            3.Bulunan sonuc sayisini yazdirin
            4.Sonucun Java kelimesini icerdigini testedin
-*/
+    */
     WebDriver driver;
 
     @Before
@@ -58,21 +58,19 @@ public class C02_DropDownHandle {
 
     @Test
     public void test2() {
-//           1.Kategori menusunden Books secenegini secin
+        // 1.Kategori menusunden Books secenegini secin
         WebElement ddm = driver.findElement(By.xpath("//*[@id='searchDropdownBox']"));
         ddm.sendKeys("Books");
-//           2.Arama kutusuna Java yazin ve aratin
+        // 2.Arama kutusuna Java yazin ve aratin
         driver.findElement(By.cssSelector("input[id='twotabsearchtextbox']")).sendKeys("Java", Keys.ENTER);
-//           3.Bulunan sonuc sayisini yazdirin
+        // 3.Bulunan sonuc sayisini yazdirin
         WebElement sonucYazisi = driver.findElement(By.xpath("//*[@class='a-section a-spacing-small a-spacing-top-small']"));
         System.out.println(sonucYazisi.getText());
-
-        //3.Bulunan sonuc SAYISINI yazdirin
+        // 4.Bulunan sonuc SAYISINI yazdirin
         System.out.println(driver.findElement
-                (By.cssSelector("div[class='a-section a-spacing-small a-spacing-top-small']"))
+                        (By.cssSelector("div[class='a-section a-spacing-small a-spacing-top-small']"))
                 .getText().split(" ")[3]);
-
-        //           4.Sonucun Java kelimesini icerdigini testedin
+        // 5.Sonucun Java kelimesini icerdigini testedin
         String expectedKelime = "Java";
         String actualSonucYazisi = sonucYazisi.getText();
         Assert.assertTrue(actualSonucYazisi.contains(expectedKelime));
