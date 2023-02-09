@@ -16,10 +16,11 @@ import java.util.List;
 
 public class C02_DropDownHandle {
     /*
-           https://www.amazon.com/ adresinegidin.
+           https://www.amazon.com/ adresine gidin.
            -Test1
            Arama kutusunun yanindaki kategori menusundeki kategori sayisinin 45
            oldugunu testedin
+
            -Test2
            1.Kategori menusunden Books secenegini secin
            2.Arama kutusuna Java yazin ve aratin
