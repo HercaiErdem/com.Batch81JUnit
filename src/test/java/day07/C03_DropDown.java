@@ -67,7 +67,7 @@ public class C03_DropDown {
 
     @Test
     public void test2() {
-//           1.Kategori menusunden Books secenegini secin
+        //1.Kategori menusunden Books secenegini secin
         WebElement ddm = driver.findElement(By.xpath("//*[@id='searchDropdownBox']"));
         select = new Select(ddm);
 
@@ -79,7 +79,7 @@ public class C03_DropDown {
         methodunu kullanırız
          */
         System.out.println(select.getFirstSelectedOption().getText());
-//           2.Arama kutusuna Java yazin ve aratin
+    // 2.Arama kutusuna Java yazin ve aratin
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Java", Keys.ENTER);
 //           3.Bulunan sonuc sayisiniyazdirin
         WebElement sonucYazisi = driver.findElement(By.xpath("//*[@class='a-section a-spacing-small a-spacing-top-small']"));
