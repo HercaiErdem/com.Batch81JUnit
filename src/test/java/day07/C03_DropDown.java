@@ -1,19 +1,13 @@
 package day07;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
+import io.github.bonigarcia.wdm.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.support.ui.*;
 
-import java.time.Duration;
-import java.util.List;
+import java.time.*;
+import java.util.*;
 
 public class C03_DropDown {
 
@@ -79,12 +73,12 @@ public class C03_DropDown {
         methodunu kullanırız
          */
         System.out.println(select.getFirstSelectedOption().getText());
-    // 2.Arama kutusuna Java yazin ve aratin
+        // 2.Arama kutusuna Java yazin ve aratin
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Java", Keys.ENTER);
-    // 3.Bulunan sonuc sayisini yazdirin
+        // 3.Bulunan sonuc sayisini yazdirin
         WebElement sonucYazisi = driver.findElement(By.xpath("//*[@class='a-section a-spacing-small a-spacing-top-small']"));
         System.out.println(sonucYazisi.getText());
-    // 4.Sonucun Java kelimesini icerdigini test edin
+        // 4.Sonucun Java kelimesini icerdigini test edin
         String expectedKelime = "Java";
         String actualSonucYazisi = sonucYazisi.getText();
         Assert.assertTrue(actualSonucYazisi.contains(expectedKelime));
