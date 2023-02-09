@@ -16,11 +16,13 @@ import java.time.Duration;
 import java.util.List;
 
 public class C03_DropDown {
+
     /*
-           ●https://www.amazon.com/ adresinegidin.
+          ●https://www.amazon.com/ adresine gidin.
            -Test1
            Arama kutusunun yanindaki kategori menusundeki kategori sayisinin45
            oldugunu testedin
+
            -Test2
            1.Kategori menusunden Books seceneginisecin
            2.Arama kutusuna Java yazin vearatin
