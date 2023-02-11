@@ -115,6 +115,5 @@ tıklayın ve result mesajında isminizin görüntülendiğini doğrulayın.
         String expectedMesaj = "You entered: Hercai";
         Assert.assertTrue(actualMesaj.contains(expectedMesaj));
 
-
     }
 }
