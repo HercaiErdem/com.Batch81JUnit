@@ -55,7 +55,7 @@ tıklayın ve result mesajında isminizin görüntülendiğini doğrulayın.
 
     @After
     public void tearDown() {
-          driver.close();
+        driver.close();
     }
 
     @Test
