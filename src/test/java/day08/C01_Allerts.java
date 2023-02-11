@@ -39,6 +39,4 @@ public class C01_Allerts {
         Thread.sleep(2000);
         driver.switchTo().alert().accept();
     }
-
-
 }
