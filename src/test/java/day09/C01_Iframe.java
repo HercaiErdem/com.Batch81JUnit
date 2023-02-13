@@ -64,8 +64,5 @@ public class C01_Iframe {
         Assert.assertTrue(seleiumText.isDisplayed());
         System.out.println(seleiumText.getText());
 
-
     }
-
-
 }
