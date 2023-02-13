@@ -1,16 +1,11 @@
 package day09;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
 
-import java.time.Duration;
+import java.time.*;
 
 public class C01_Iframe {
 
@@ -52,8 +47,8 @@ public class C01_Iframe {
         // Text Box’a “Merhaba Dunya!” yazin.
         WebElement texBox = driver.findElement(By.id("mce_0_ifr"));
         driver.switchTo().frame(texBox); // texbox in icine gectik, Frame e gecis yapmadan once
-                                         // orayi id ile locate edelim. Sonra locate ettigimiz frame
-                                         // e bu method() u kullaniliz.
+        // orayi id ile locate edelim. Sonra locate ettigimiz frame
+        // e bu method() u kullaniliz.
         WebElement texBoxFrame = driver.findElement(By.xpath("//p"));
         texBoxFrame.clear(); // clear method u() texbox in icini temizler
         Thread.sleep(2000);
@@ -68,7 +63,6 @@ public class C01_Iframe {
         WebElement seleiumText = driver.findElement(By.xpath("//*[text()='Elemental Selenium']"));
         Assert.assertTrue(seleiumText.isDisplayed());
         System.out.println(seleiumText.getText());
-
 
 
     }
