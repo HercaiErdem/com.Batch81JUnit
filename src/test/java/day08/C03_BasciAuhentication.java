@@ -30,12 +30,12 @@ public class C03_BasciAuhentication {
 
     @After
     public void tearDown() {
-      //  driver.close();
+        //  driver.close();
     }
 
     @Test
     public void test1() throws InterruptedException {
-     //https://the-internet.herokuapp.com/basic_auth sayfasina gidin
+        //https://the-internet.herokuapp.com/basic_auth sayfasina gidin
         driver.get("https://the-internet.herokuapp.com/basic_auth");
 
        /*
@@ -51,16 +51,6 @@ public class C03_BasciAuhentication {
         WebElement basariliKayitMesaji = driver.findElement(By.xpath("//h3"));
         Assert.assertTrue(basariliKayitMesaji.isDisplayed());
     }
-
-
-
-
-
-
-
-
-
-
 
 
 }
