@@ -1,17 +1,12 @@
 package day09;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
 
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
+import java.time.*;
+import java.util.*;
 
 public class C04_WindowHandle {
     /*
@@ -36,8 +31,8 @@ Bir önceki pencereye geri döndükten sonra sayfa başlığının “The Intern
 
     @After
     public void tearDown() throws InterruptedException {
-         Thread.sleep(2000);
-         driver.quit();
+        Thread.sleep(2000);
+        driver.quit();
     }
 
     @Test
@@ -65,7 +60,7 @@ Bir önceki pencereye geri döndükten sonra sayfa başlığının “The Intern
         // Acilan yeni pencerenin sayfa başlığının (title) “New Window” oldugunu dogrulayin.
         String actualTitle = driver.getTitle();
         String expectedTile = "New Window";
-        Assert.assertEquals(expectedTile,actualTitle);
+        Assert.assertEquals(expectedTile, actualTitle);
         // Sayfadaki textin “New Window” olduğunu doğrulayın.
         Assert.assertTrue(driver.findElement(By.xpath("//h3")).isDisplayed());
         // Bir önceki pencereye geri döndükten sonra sayfa başlığının “The Internet” olduğunu  doğrulayın.
@@ -75,7 +70,7 @@ Bir önceki pencereye geri döndükten sonra sayfa başlığının “The Intern
         Thread.sleep(2000);
         String actualBirinciSayfaninTitle = driver.getTitle();
         String expectedBirinciSayfaninTitle = "The Internet";
-        Assert.assertEquals(expectedBirinciSayfaninTitle,actualBirinciSayfaninTitle);
+        Assert.assertEquals(expectedBirinciSayfaninTitle, actualBirinciSayfaninTitle);
 
     }
 
