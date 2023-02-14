@@ -73,5 +73,4 @@ Bir önceki pencereye geri döndükten sonra sayfa başlığının “The Intern
         Assert.assertEquals(expectedBirinciSayfaninTitle, actualBirinciSayfaninTitle);
 
     }
-
 }
