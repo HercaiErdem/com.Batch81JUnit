@@ -95,6 +95,4 @@ public class C02_WindowHandle {
         //9- Sayfaları Kapatalım
 
     }
-
-
 }
