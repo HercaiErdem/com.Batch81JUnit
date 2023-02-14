@@ -42,7 +42,7 @@ public class C02_WindowHandle {
         String amazonWindowHandle = driver.getWindowHandle();
         /*
         Eger bize verilen task da sayfalar arasi gecis varsa her diver.get() methodundan sonra
-        driver'in windiw handle degerini string bir degiskene atariz
+        driver'in window handle degerini string bir degiskene atariz
         Sonrasinda farkli bir sayfaya ya da sekmeye gittikten sonra tekrar ilk sayfaya donmemiz istenirse
         String degiskene atadigimiz window handle değerleriyle sayfalar arası geçiş yapabiliriz.
          */
