@@ -72,6 +72,4 @@ Ilk acilan sayfaya donun ve amazon sayfasina dondugunuzu test edin
         Assert.assertTrue(driver.getTitle().contains(actualTitle));
 
     }
-
-
 }
