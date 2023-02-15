@@ -6,6 +6,7 @@ import org.openqa.selenium.interactions.*;
 import utilities.*;
 
 public class C05_Actions extends TestBaseBeforeAfter {
+
     //  Yeni bir class olusturalim: MouseActions2
     //  https://demoqa.com/droppable adresine gidelim
     // “Drag me” butonunu tutup “Drop here” kutusunun ustune birakalim
