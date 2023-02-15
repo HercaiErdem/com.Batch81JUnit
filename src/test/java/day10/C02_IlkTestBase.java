@@ -1,7 +1,7 @@
 package day10;
 
-import org.junit.Test;
-import utilities.TestBaseBeforeClassAfterClass;
+import org.junit.*;
+import utilities.*;
 
 public class C02_IlkTestBase extends TestBaseBeforeClassAfterClass {
 
