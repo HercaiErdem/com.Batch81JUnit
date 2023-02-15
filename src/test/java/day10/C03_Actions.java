@@ -9,9 +9,9 @@ public class C03_Actions extends TestBaseBeforeAfter {
 
     @Test
     public void test1() throws InterruptedException {
-        // - Amazon sayfasina gidelim
+        // Amazon sayfasina gidelim
         driver.get("https://www.amazon.com");
-        //- Account menusunden create a list linkine tiklayalim
+        // Account menusunden create a list linkine tiklayalim
         WebElement accountList = driver.findElement(By.xpath("//*[@id='nav-link-accountList']"));
         Actions action = new Actions(driver);
         action.moveToElement(accountList).perform();
