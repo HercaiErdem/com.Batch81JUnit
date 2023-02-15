@@ -49,6 +49,4 @@ public class C04_Actions extends TestBaseBeforeAfter {
                 driver.findElement(By.xpath("//h1")).getText());
 
     }
-
-
 }
