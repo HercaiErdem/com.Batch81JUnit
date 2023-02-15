@@ -1,7 +1,7 @@
 package day10;
 
-import org.junit.Test;
-import utilities.TestBaseBeforeAfter;
+import org.junit.*;
+import utilities.*;
 
 public class C01_IlkTestBaseClass extends TestBaseBeforeAfter {
 
@@ -10,6 +10,4 @@ public class C01_IlkTestBaseClass extends TestBaseBeforeAfter {
         driver.get("https://www.amazon.com");
 
     }
-
-
 }
