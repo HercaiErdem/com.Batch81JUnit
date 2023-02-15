@@ -9,6 +9,5 @@ public class C02_IlkTestBase extends TestBaseBeforeClassAfterClass {
     public void test1() {
         driver.get("https://www.amazon.com");
 
-
     }
 }
