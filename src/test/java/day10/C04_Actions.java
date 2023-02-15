@@ -39,7 +39,7 @@ public class C04_Actions extends TestBaseBeforeAfter {
         WebElement yaziLinki = driver.findElement(By.xpath("//*[text()='Elemental Selenium']"));
         Thread.sleep(1000);
         yaziLinki.click();
-        //yeni sayfa acildi o yuzden List e acip index ini alacagiz
+        // yeni sayfa acildi o yuzden List e acip index ini alacagiz
         List<String> windowList = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(windowList.get(1));
         // Acilan sayfada h1 taginda “Elemental Selenium” yazdigini test edelim
