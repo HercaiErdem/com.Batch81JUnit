@@ -1,12 +1,9 @@
 package day10;
 
-import com.google.gson.internal.bind.TreeTypeAdapter;
-import org.junit.Assert;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import utilities.TestBaseBeforeAfter;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
+import utilities.*;
 
 public class C05_Actions extends TestBaseBeforeAfter {
     //  Yeni bir class olusturalim: MouseActions2
