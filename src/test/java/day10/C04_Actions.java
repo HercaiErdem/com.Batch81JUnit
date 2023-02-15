@@ -11,7 +11,7 @@ public class C04_Actions extends TestBaseBeforeAfter {
 
     // Yeni bir class olusturalim: MouseActions1
     // https://the-internet.herokuapp.com/context_menu sitesine gidelim
-    //  Cizili alan uzerinde sag click yapalim
+    // Cizili alan uzerinde sag click yapalim
     // Alert’te cikan yazinin “You selected a context menu” oldugunu test edelim.
     // Tamam diyerek alert’i kapatalim
     // Elemental Selenium linkine tiklayalim
@@ -28,7 +28,7 @@ public class C04_Actions extends TestBaseBeforeAfter {
         // Alert’te cikan yazinin “You selected a context menu” oldugunu test edelim.
         String actualAlertYazisi = driver.switchTo().alert().getText();
 
-        //Allert uzerindeki yaziyi; driver.switchTo().alert().getText(); boyle aliriz
+        //Alert uzerindeki yaziyi; driver.switchTo().alert().getText(); boyle aliriz
 
         String expectedAlertYazisi = "You selected a context menu";
         Assert.assertEquals(expectedAlertYazisi, actualAlertYazisi);
