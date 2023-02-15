@@ -1,19 +1,17 @@
 package day10;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import utilities.TestBaseBeforeAfter;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
+import utilities.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class C04_Actions extends TestBaseBeforeAfter {
+
     // Yeni bir class olusturalim: MouseActions1
     // https://the-internet.herokuapp.com/context_menu sitesine gidelim
-    // 3- Cizili alan uzerinde sag click yapalim
+    //  Cizili alan uzerinde sag click yapalim
     // Alert’te cikan yazinin “You selected a context menu” oldugunu test edelim.
     // Tamam diyerek alert’i kapatalim
     // Elemental Selenium linkine tiklayalim
@@ -23,7 +21,7 @@ public class C04_Actions extends TestBaseBeforeAfter {
     public void test01() throws InterruptedException {
         // https://the-internet.herokuapp.com/context_menu sitesine gidelim
         driver.get("https://the-internet.herokuapp.com/context_menu");
-        // 3- Cizili alan uzerinde sag click yapalim
+        // Cizili alan uzerinde sag click yapalim
         WebElement cizgiliAlan = driver.findElement(By.id("hot-spot"));
         Actions action = new Actions(driver);
         action.contextClick(cizgiliAlan).perform();
