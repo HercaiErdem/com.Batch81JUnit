@@ -24,7 +24,7 @@ public class C04_FileExistDownload {
        */
 
         String dosyaYolu = "C:\\Users\\Kayra\\Desktop\\test.txt";
-        //   System.out.println(Files.exists(Paths.get(dosyaYolu)));
+        // System.out.println(Files.exists(Paths.get(dosyaYolu)));
         Assert.assertTrue(Files.exists(Paths.get(dosyaYolu)));
         // dosya var mi yok mu bakta gel :) kisacasi
 
