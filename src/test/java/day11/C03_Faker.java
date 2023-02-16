@@ -1,12 +1,10 @@
 package day11;
 
-import com.github.javafaker.Faker;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import utilities.TestBaseBeforeAfter;
+import com.github.javafaker.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
+import utilities.*;
 
 public class C03_Faker extends TestBaseBeforeAfter {
 
