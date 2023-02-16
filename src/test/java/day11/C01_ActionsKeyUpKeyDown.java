@@ -37,5 +37,6 @@ public class C01_ActionsKeyUpKeyDown extends TestBaseBeforeAfter {
         WebElement aramaSonucu= driver.findElement
                 (By.xpath("(//div[@class='a-section a-spacing-small a-spacing-top-small'])[1]"));
         Assert.assertTrue(aramaSonucu.isDisplayed());
+
     }
 }
