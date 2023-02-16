@@ -10,11 +10,11 @@ public class C03_Faker extends TestBaseBeforeAfter {
 
     @Test
     public void test1() {
-//       //"https://facebook.com"  Adresine gidin
+       //"https://facebook.com"  Adresine gidin
         driver.get("https://www.facebook.com");
-//        //“create new account”  butonuna basin
+       //“create new account”  butonuna basin
         driver.findElement(By.xpath("//*[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']")).click();
-//        //“firstName” giris kutusuna bir isim yazin
+        //“firstName” giris kutusuna bir isim yazin
         Faker faker = new Faker();
         WebElement isim = driver.findElement(By.xpath("(//*[@class='inputtext _58mg _5dba _2ph-'])[1]"));
         Actions actions = new Actions(driver);
