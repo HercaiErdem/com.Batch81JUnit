@@ -34,7 +34,5 @@ public class C02_Actions extends TestBaseBeforeAfterReview {
                 sendKeys(Keys.TAB).sendKeys(Keys.TAB)
                 .sendKeys(Keys.ENTER).perform();
 
-
     }
-
 }
