@@ -23,8 +23,8 @@ public class C03_Faker extends TestBaseBeforeAfter {
 
         /*
         Faker classını kullanma amacımız form doldurmamız gereken web sitelerde defalarca kendi üreteceğimiz veriler yerine
-        bizim için rondom veriler üretir ve işimizi kolaylaştırır
-        Faker classını kullanmak için mvnrepository.com adresinden java-faker kütüphanesini aratır ve ençok kullanılanı
+        bizim için random veriler üretir ve işimizi kolaylaştırır
+        Faker classını kullanmak için mvnrepository.com adresinden java-faker kütüphanesini aratır ve en çok kullanılanı
         pom.xml dosyamıza ekleriz. Ve faker class'ından bir obje oluşturup;
         email için faker.internet() methodunu kullanarak emailAddress() methodunu seçeriz.
         password içinde aynı internet methodunu kullanırız.
