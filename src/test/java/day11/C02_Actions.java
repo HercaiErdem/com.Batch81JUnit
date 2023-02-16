@@ -14,7 +14,6 @@ public class C02_Actions extends TestBaseBeforeAfterReview {
         //2- Yeni hesap olustur butonuna basalim
         driver.findElement(By.xpath("//*[@class='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']")).click();
         //3- Ad, soyad, mail ve sifre kutularina deger yazalim ve kaydol tusuna basalim
-        //Actions actions = new Actions(driver);
         WebElement isim = driver.findElement(By.xpath("(//*[@class='inputtext _58mg _5dba _2ph-'])[1]"));
         isim.sendKeys("Erol");
         Actions actions = new Actions(driver);
