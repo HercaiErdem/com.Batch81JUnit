@@ -26,11 +26,11 @@ public class C01_ActionsKeyUpKeyDown extends TestBaseBeforeAfter {
                 sendKeys("n").
                 sendKeys("g").
                 sendKeys(" ").keyDown(Keys.SHIFT).sendKeys("a").keyUp(Keys.SHIFT).sendKeys("7").
-                // // shift tusu otomasyon ile bu sekilde kullanılır. Shift tuşuna basmak için keyDown,
+                // shift tusu otomasyon ile bu sekilde kullanılır. Shift tuşuna basmak için keyDown,
                 // shift ten çıkmak için keyUp kullanılır
                 sendKeys("1").sendKeys(Keys.ENTER).perform();
 
-        //  aramanin gerceklestigini test edin
+        // aramanin gerceklestigini test edin
         WebElement aramaSonucu= driver.findElement
                 (By.xpath("(//div[@class='a-section a-spacing-small a-spacing-top-small'])[1]"));
         Assert.assertTrue(aramaSonucu.isDisplayed());
