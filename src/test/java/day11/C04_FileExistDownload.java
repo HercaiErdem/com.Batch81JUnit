@@ -29,7 +29,7 @@ public class C04_FileExistDownload {
         // dosya var mi yok mu bakta gel :) kisacasi
 
         /*
-        Bir web sitesinden indirdiğimiz yada windows içinde oluşturduğumuz dosyanın indiğini yada orda olduğunu
+        Bir web sitesinden indirdiğimiz ya da windows içinde oluşturduğumuz dosyanın indiğini ya da orda olduğunu
         test edebilmem için o dosyanın üzerine shift tuşuna basılı olarak sağ klik yapıp dosyanın yolunu kopyalayıp
         bir string değişkene atarız ve dosyayı doğrulamak için
         Assert.assertTrue(Files.exists(Paths.get(dosyaYolu))); bu methodu kullanırız
