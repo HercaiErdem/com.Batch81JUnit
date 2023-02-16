@@ -20,6 +20,7 @@ public class C03_Faker extends TestBaseBeforeAfter {
         Actions actions = new Actions(driver);
         String email = faker.internet().emailAddress();// Aynı mail adresini girmesi için String bir değişkene atama yaptık
         //  String password = faker.internet().password();
+
         /*
         Faker classını kullanma amacımız form doldurmamız gereken web sitelerde defalarca kendi üreteceğimiz veriler yerine
         bizim için rondom veriler üretir ve işimizi kolaylaştırır
@@ -29,6 +30,7 @@ public class C03_Faker extends TestBaseBeforeAfter {
         password içinde aynı internet methodunu kullanırız.
         İsim ve soyisimler için faker.name() methodu ile firstname() ve lastname() methodunu kullanırız
          */
+
         actions.click(isim).sendKeys(faker.name().firstName()).
                 sendKeys(Keys.TAB).sendKeys(faker.name().lastName()).sendKeys(Keys.TAB).
                 sendKeys(email).
