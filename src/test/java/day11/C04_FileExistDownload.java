@@ -1,10 +1,8 @@
 package day11;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.*;
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.nio.file.*;
 
 public class C04_FileExistDownload {
 
