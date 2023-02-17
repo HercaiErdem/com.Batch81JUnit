@@ -1,10 +1,8 @@
 package day12;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import utilities.TestBaseBeforeAfter;
+import org.junit.*;
+import org.openqa.selenium.*;
+import utilities.*;
 
 public class C02_FileExistsUpload extends TestBaseBeforeAfter {
     @Test
