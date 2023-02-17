@@ -10,19 +10,19 @@ import java.time.*;
 public class C03_SynchronizationWait extends TestBaseBeforeAfter {
     @Test
     public void implicitlyWaittest1() {
-        //    Bir class olusturun : WaitTest
-        //    Iki tane metod olusturun : implicitWait() , explicitWait()
-        //    Iki metod icin de asagidaki adimlari test edin.
-        //    https://the-internet.herokuapp.com/dynamic_controls adresine gidin.
+        // Bir class olusturun : WaitTest
+        // Iki tane metod olusturun : implicitWait() , explicitWait()
+        // Iki metod icin de asagidaki adimlari test edin.
+        // https://the-internet.herokuapp.com/dynamic_controls adresine gidin.
         driver.get("https://the-internet.herokuapp.com/dynamic_controls");
-        //    Remove butonuna basin.
+        // Remove butonuna basin.
         WebElement removeButton = driver.findElement(By.xpath("(//button[@type='button'])[1]"));
         removeButton.click();
-        //     “It’s gone!” mesajinin goruntulendigini dogrulayin.
+        // “It’s gone!” mesajinin goruntulendigini dogrulayin.
         Assert.assertTrue(driver.findElement(By.xpath("//p[@id='message']")).isDisplayed());
-        //    Add buttonuna basin
+        // Add buttonuna basin
         driver.findElement(By.xpath("//button[text()='Add']")).click();
-        //    It’s back! mesajinin gorundugunu test edin
+        // It’s back! mesajinin gorundugunu test edin
         String actualMessage = driver.findElement(By.xpath("//p[@id='message']")).getText();
         String expectedMessage = "It's back!";
         Assert.assertTrue(actualMessage.contains(expectedMessage));
@@ -31,19 +31,19 @@ public class C03_SynchronizationWait extends TestBaseBeforeAfter {
 
     @Test
     public void explicitWaittest2() {
-        //    https://the-internet.herokuapp.com/dynamic_controls adresine gidin.
+        // https://the-internet.herokuapp.com/dynamic_controls adresine gidin.
         driver.get("https://the-internet.herokuapp.com/dynamic_controls");
-        //    Remove butonuna basin.
+        // Remove butonuna basin.
         WebElement removeButton = driver.findElement(By.xpath("(//button[@type='button'])[1]"));
         removeButton.click();
-        //  “It’s gone!” mesajinin goruntulendigini dogrulayin.
+        // “It’s gone!” mesajinin goruntulendigini dogrulayin.
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         WebElement isGoneWE = wait.until(ExpectedConditions.visibilityOfElementLocated
                 (By.xpath("//p[@id='message']")));
         Assert.assertTrue(driver.findElement(By.xpath("//p[@id='message']")).isDisplayed());
-        //    Add buttonuna basin
+        // Add buttonuna basin
         driver.findElement(By.xpath("//button[text()='Add']")).click();
-        //    It’s back! mesajinin gorundugunu test edin
+        // It’s back! mesajinin gorundugunu test edin
         WebElement itsBackWe = wait.until(ExpectedConditions.visibilityOfElementLocated
                 (By.xpath("//p[@id='message']")));
         String expectedMessage = "It's back!";
