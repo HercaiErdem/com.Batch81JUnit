@@ -1,14 +1,11 @@
 package day12;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import utilities.TestBaseBeforeAfter;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.*;
+import utilities.*;
 
-import java.time.Duration;
+import java.time.*;
 
 public class C04_SyncronizationWait extends TestBaseBeforeAfter {
     //   Bir class olusturun : EnableTest
