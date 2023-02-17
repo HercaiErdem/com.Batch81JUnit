@@ -52,15 +52,11 @@ public class C03_SynchronizationWait extends TestBaseBeforeAfter {
                 /*
                 imlicitlyWait kullandığımız bu method'da sayfadaki bütün webelementler için
                 max belirttiğimiz süre altında bütün web elementler için bekler
-                  */
-         /*
+
         explicitWait itsgoneWE görünür olmasını beklerken o web elementinin locatini kullanarak assert yapmak
         sorun olur ve exeption fırlatır. Henüz görülmeyen bir Webelementin locate edilmeside otamasyon için
         mümkün olmaz. Bu durumda bekleme işlemi için explicitWait'i locate ile birlikte kullanırız
-         */
 
-        // Ogrencilerin Slack e yazdigi kisa notlar
-         /*
         implicitly wait testten once calsitirilir ve calistirilan testin tamamina etki eder
         explicitly wait ise once obje olarak olusturulur sonra
          sadece kullanildigi yerde ve belirlenen sart a gore calisir class ya da test in tamamina uygulanmaz
