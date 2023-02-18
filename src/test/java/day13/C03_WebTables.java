@@ -44,8 +44,9 @@ int sutun = 4;
         WebElement userName = driver.findElement(By.xpath("//*[@id='UserName']"));
         actions.click(userName).sendKeys("manager").
                 sendKeys(Keys.TAB).sendKeys("Manager1!").sendKeys(Keys.ENTER).perform();
+
     }
 }
 
-// //thead(Baslik)         //tr(Satir)     //th(Sutun)                   Baslik icin
-////tbody(Vucut- Ana)     //tr(Satir)      //td (Vucut - Ana Sutunu)     Body icin
+ //thead(Baslik)         //tr(Satir)     //th(Sutun)                   Baslik icin
+ //tbody(Vucut- Ana)     //tr(Satir)      //td (Vucut - Ana Sutunu)     Body icin
