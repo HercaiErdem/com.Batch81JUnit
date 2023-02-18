@@ -1,11 +1,10 @@
 package day13;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.openqa.selenium.Cookie;
-import utilities.TestBaseBeforeClassAfterClass;
+import org.junit.*;
+import org.openqa.selenium.*;
+import utilities.*;
 
-import java.util.Set;
+import java.util.*;
 
 public class C01_Cookie extends TestBaseBeforeClassAfterClass {
 // 1-Amazon anasayfaya gidin
