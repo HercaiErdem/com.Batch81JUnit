@@ -21,7 +21,7 @@ public class C01_Cookie extends TestBaseBeforeClassAfterClass {
     public void test1() {
         //1-Amazon anasayfaya gidin
         driver.get("https://amazon.com");
-        //-tum cookie’leri listeleyin
+        //2-tum cookie’leri listeleyin
         Set<Cookie> tumCookie = driver.manage().getCookies();
         System.out.println(tumCookie);
         int sayac = 1;
