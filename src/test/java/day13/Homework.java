@@ -1,7 +1,9 @@
 package day13;
 
 public class Homework {
+
     /*
+    1)
     Bir class oluşturun : D18_WebTables
     login( ) metodun oluşturun ve oturum açın.
     https://qa-environment.concorthotel.com/admin/HotelRoomAdmin adresine gidin
@@ -30,9 +32,9 @@ public class Homework {
     Ve bu metodu printData( ) methodunu cagirmak icin kullanin.
     Örnek: printData (3,5); => 3. satır, 5. Sütundaki veriyi yazdırmalıdır
     yazdirilan datanin olmasi gereken dataya esit oldugunu test edin
-     */
 
-    /*
+
+
     Bir Class olusturun D19_WebtablesHomework
 “https://demoqa.com/webtables” sayfasina gidin
 Headers da bulunan department isimlerini yazdirin
