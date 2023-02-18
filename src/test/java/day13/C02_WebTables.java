@@ -69,5 +69,6 @@ Table body’sinde bulunan satirlari(rows) konsolda yazdırın.
         WebElement userName = driver.findElement(By.xpath("//*[@id='UserName']"));
         actions.click(userName).sendKeys("manager").
                 sendKeys(Keys.TAB).sendKeys("Manager1!").sendKeys(Keys.ENTER).perform();
+
     }
 }
