@@ -9,13 +9,13 @@ import java.util.*;
 
 public class C03_WebTables extends TestBaseBeforeAfter {
     /*
-Bir onceki class'taki adrese gidelim
-login() methodunu kullanarak sayfaya giris yapalim
-input olarak verilen satir ve sutun sayisina sahip cell'deki texti yazdiralim
-Price basligindaki tum numaralari yazdir
-int satir = 3;
-int sutun = 4;
- */
+  Bir onceki class'taki adrese gidelim
+  login() methodunu kullanarak sayfaya giris yapalim
+  input olarak verilen satir ve sutun sayisina sahip cell'deki texti yazdiralim
+  Price basligindaki tum numaralari yazdir
+  int satir = 3;
+  int sutun = 4;
+   */
 
     @Test
     public void test1() {
