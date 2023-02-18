@@ -71,5 +71,6 @@ public class C01_Cookie extends TestBaseBeforeClassAfterClass {
         driver.manage().deleteAllCookies();
         tumCookie = driver.manage().getCookies();
         Assert.assertTrue(tumCookie.isEmpty());
+
     }
 }
