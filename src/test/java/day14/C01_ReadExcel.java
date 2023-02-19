@@ -16,7 +16,7 @@ public class C01_ReadExcel {
         //- Workbook objesi olusturalim,parameter olarak fileInputStream objesini girelim
         //- WorkbookFactory.create(fileInputStream)
         Workbook workbook = WorkbookFactory.create(fis); // Workbook objesiyle fis objesi ile akisa aldigimiz
-        //----> dosyamizla bir excel dosyasi creare ettik.
+        //----> dosyamizla bir excel dosyasi create ettik.
         //- Sheet objesi olusturun workbook.getSheetAt(index)
         Sheet sheet = workbook.getSheet("Sayfa1"); // Excel dosyamizda calismak istedigimiz sayfayi bu sekilde seceriz
         //- Row objesi olusturun sheet.getRow(index)
