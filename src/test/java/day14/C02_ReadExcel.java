@@ -1,11 +1,9 @@
 package day14;
 
 import org.apache.poi.ss.usermodel.*;
-import org.junit.Test;
+import org.junit.*;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 public class C02_ReadExcel {
     @Test
