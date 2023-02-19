@@ -6,10 +6,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class C03_readExcel {
+public class C03_ReadExcel {
     @Test
     public void readExcelTest1() throws IOException {
 
