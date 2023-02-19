@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class C04_ReadExcel  {
+public class C04_ReadExcel {
     @Test
     public void readExcelTest1() throws IOException {
         //-Dosya yolunu bir String degiskene atayalim
@@ -19,39 +19,15 @@ public class C04_ReadExcel  {
         //-WorkbookFactory.create(fileInputStream)
         Workbook workbook = WorkbookFactory.create(fis);
         //-Turkce baskentler sutununu yazdiralim
-        int sonSatir= workbook.getSheet("Sayfa1").getLastRowNum();
+        int sonSatir = workbook.getSheet("Sayfa1").getLastRowNum();
         // .getLastRowNum() methodu bize excel sayfasindaki tum satir numarasini verir.
         System.out.println(sonSatir);
-        String turkceBaskentler= "";
+        String turkceBaskentler = "";
 
         for (int i = 0; i <= sonSatir; i++) {
-            turkceBaskentler= workbook.getSheet("Sayfa1").getRow(i).getCell(3).toString();
+            turkceBaskentler = workbook.getSheet("Sayfa1").getRow(i).getCell(3).toString();
             System.out.println(turkceBaskentler);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
