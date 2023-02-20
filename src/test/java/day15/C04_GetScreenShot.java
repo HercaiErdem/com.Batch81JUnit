@@ -1,15 +1,11 @@
 package day15;
 
-import org.apache.commons.io.FileUtils;
-import org.junit.Test;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import utilities.TestBaseBeforeAfter;
+import org.apache.commons.io.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import utilities.*;
 
-import java.io.File;
-import java.io.IOException;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+import java.io.*;
 
 public class C04_GetScreenShot extends TestBaseBeforeAfter {
     @Test
