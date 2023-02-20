@@ -1,12 +1,9 @@
 package day15;
 
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.junit.Test;
+import org.apache.poi.ss.usermodel.*;
+import org.junit.*;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 
 public class C02_WriteExcel {
     @Test
