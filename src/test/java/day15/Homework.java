@@ -1,15 +1,13 @@
 package day15;
 
 import org.apache.poi.ss.usermodel.*;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.*;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.io.*;
+import java.util.*;
 
 public class Homework {
+
     //1.satirdaki 2.hucreye gidelim ve yazdiralim
     //1.satirdaki 2.hucreyi bir string degiskene atayalim ve yazdiralim
     //2.satir 4.cell’in afganistan’in baskenti oldugunu test edelim
