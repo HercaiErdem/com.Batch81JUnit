@@ -1,16 +1,12 @@
 package day16;
 
-import org.apache.commons.io.FileUtils;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.WebElement;
-import utilities.TestBaseBeforeAfter;
+import org.apache.commons.io.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import utilities.*;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
+import java.io.*;
+
 
 public class C01_GetScreenShotWebElement extends TestBaseBeforeAfter {
     @Test
