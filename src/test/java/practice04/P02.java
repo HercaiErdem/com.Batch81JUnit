@@ -1,11 +1,8 @@
 package practice04;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.*;
 
-import java.io.File;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.nio.file.*;
 
 public class P02 {
     @Test

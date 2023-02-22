@@ -1,4 +1,4 @@
-package practice;
+package review.practice;
 
 import org.junit.*;
 

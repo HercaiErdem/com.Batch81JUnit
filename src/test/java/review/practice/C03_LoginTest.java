@@ -1,4 +1,4 @@
-package practice;
+package review.practice;
 
 import io.github.bonigarcia.wdm.*;
 import org.junit.*;
