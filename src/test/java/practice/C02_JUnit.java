@@ -42,5 +42,4 @@ public class C02_JUnit {
         System.out.println("best03");
     }
 
-
 }
