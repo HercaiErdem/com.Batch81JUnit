@@ -24,7 +24,7 @@ public class C02_JUnit {
     @After
     public void after() {
         System.out.println("After");
-        //Her test'ten once calisir
+        // Her test'ten once calisir
     }
 
     @Test
