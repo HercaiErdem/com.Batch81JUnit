@@ -7,7 +7,7 @@ public class C02_JUnit {
     @BeforeClass
     public static void beforeClass() {
         System.out.println("Before Class");
-        //Her class dan once calisir, 1 defa calisir
+        // Her class dan once calisir, 1 defa calisir
     }
 
     @AfterClass
