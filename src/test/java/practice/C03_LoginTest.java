@@ -47,5 +47,6 @@ public class C03_LoginTest {
         Assert.assertTrue("Categories sayfa da gozukmuyor",
                 categoriesYazisi.isDisplayed());
 
+
     }
 }
