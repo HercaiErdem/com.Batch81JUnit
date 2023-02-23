@@ -25,7 +25,7 @@ public class P01 extends TestBaseBeforeAfter {
         driver.findElement(By.xpath("(//span[@class='mdl-tabs__ripple-container mdl-js-ripple-effect'])[2]")).click(); //ikinci hayvana tıkladım
         //3) tüm hayvan emojilerine tıklayın
         /*
-        emoji locate ini aldığımızda web sayfasında bulunan tüm emojileri döndüürdü ama test cesa bezdin sadece animal emojilerinin
+        emoji locate ini aldığımızda web sayfasında bulunan tüm emojileri döndürdü ama test case bezdin sadece animal emojilerinin
         locaterlarını istiyor, bunun icin parent child iliskisi oldugundan parent class in locate ini alıp listeyi buradan alacağız
         parentten child a basamak basamak gittik ve 64 tane locate i aldık
         parentten child a giderken araya /div (child) /img basamak basamak gidiyoruz. koyuyoruz
@@ -98,6 +98,7 @@ public class P01 extends TestBaseBeforeAfter {
         }
         driver.findElement(By.xpath("//*[@class='mdl-button mdl-js-button mdl-button--raised mdl-button--colored']")).click();
         */
+
     }
 
 }
