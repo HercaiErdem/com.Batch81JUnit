@@ -1,16 +1,11 @@
 package practice04;
 
-import org.apache.commons.collections4.ListUtils;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import utilities.TestBaseBeforeAfter;
+import org.junit.*;
+import org.openqa.selenium.*;
+import utilities.*;
 
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 import java.util.List;
-import java.util.ListResourceBundle;
 
 public class P01 extends TestBaseBeforeAfter {
     // go to the URL https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/
@@ -105,7 +100,7 @@ public class P01 extends TestBaseBeforeAfter {
         */
     }
 
-    }
+}
 
 
 
