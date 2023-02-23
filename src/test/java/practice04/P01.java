@@ -20,7 +20,7 @@ public class P01 extends TestBaseBeforeAfter {
         // 1)go to the URL https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/
         driver.get("https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/");
         //2) ikinci emojiye tıklayın (hayvan emojisini seçin)
-        WebElement iframe = driver.findElement(By.xpath("//iframe[@id='emoojis']")); //ikinci hayvani icin locate ettim tıkladık
+        WebElement iframe = driver.findElement(By.xpath("//iframe[@id='emoojis']")); //ikinci hayvan icin locate ettim tıkladık
         driver.switchTo().frame(iframe);//iframe de bulundukarı icin iframe e gecis yapıyorum.
         driver.findElement(By.xpath("(//span[@class='mdl-tabs__ripple-container mdl-js-ripple-effect'])[2]")).click(); //ikinci hayvana tıkladım
         //3) tüm hayvan emojilerine tıklayın
