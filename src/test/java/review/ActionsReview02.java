@@ -1,14 +1,11 @@
 package review;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import reviewUtilities.ReviewBeforeAfterTestBase;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
+import reviewUtilities.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class ActionsReview02 extends ReviewBeforeAfterTestBase {
 
