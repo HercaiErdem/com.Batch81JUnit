@@ -21,7 +21,7 @@ public class ActionsReview02 extends ReviewBeforeAfterTestBase {
     public void test01() throws InterruptedException {
         // https://the-internet.herokuapp.com/context_menu sitesine gidelim
         driver.get("https://the-internet.herokuapp.com/context_menu");
-        // 3- Cizili alan uzerinde sag click yapalim
+        // Cizili alan uzerinde sag click yapalim
         WebElement cizgiliAlan = driver.findElement(By.id("hot-spot"));
         Actions action = new Actions(driver);
         action.contextClick(cizgiliAlan).perform();
