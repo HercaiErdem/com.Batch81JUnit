@@ -11,7 +11,7 @@ public class ActionsReview02 extends ReviewBeforeAfterTestBase {
 
     // Yeni bir class olusturalim: MouseActions1
     // https://the-internet.herokuapp.com/context_menu sitesine gidelim
-    // 3- Cizili alan uzerinde sag click yapalim
+    // Cizili alan uzerinde sag click yapalim
     // Alert’te cikan yazinin “You selected a context menu” oldugunu test edelim.
     // Tamam diyerek alert’i kapatalim
     // Elemental Selenium linkine tiklayalim
