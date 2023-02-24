@@ -12,10 +12,10 @@ public class ActionsClassInSelenium {
    2. Erişmek istenilen WebElement öğesini bulunuz.
    Örneğin=> WebElement sample = driver.findElement(By.id("****"));
 
-   3. Sonrada  bu webelement üzerinde "action" gerçekleştiririz. Örneğin Webelemente çift tıklamak için
+   3. Sonra da  bu webelement üzerinde "action" gerçekleştiririz. Örneğin Webelemente çift tıklamak için
      actions.doubleClick(sample).perform( );
 
-   ** action. ın calışması icin sonuna mutlaka perform( ) eklenir.
+   ** action. ın calışması icin sonuna mutlaka .perform( ) eklenir.
 
    Action Class Örneği;
    Actions action = new Actions(driver);
