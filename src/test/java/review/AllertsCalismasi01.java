@@ -1,14 +1,11 @@
 package review;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
 
-import java.time.Duration;
+import java.time.*;
 
 public class AllertsCalismasi01 {
 
