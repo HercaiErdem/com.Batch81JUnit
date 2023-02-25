@@ -25,7 +25,7 @@ public class AllPageAndWebElementScreenShot01 extends TestBaseBeforeClassAfterCl
 
     @Test
     public void test02() throws IOException {
-        //Elektronik butonunun screen shot ini al
+        // Elektronik butonunun screen shot ini al
         WebElement electronikButton = driver.findElement
                 (By.xpath("(//li[@class='sf-MenuItems-WulWXvlfIAwNiOUGY7FP'])[1]"));
         File eletronikScreenShot = electronikButton.getScreenshotAs(OutputType.FILE);
