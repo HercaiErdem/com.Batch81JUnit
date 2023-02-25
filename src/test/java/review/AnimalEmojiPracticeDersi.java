@@ -1,9 +1,8 @@
 package review;
 
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import reviewUtilities.ReviewBeforeAfterTestBase;
+import org.junit.*;
+import org.openqa.selenium.*;
+import reviewUtilities.*;
 
 public class AnimalEmojiPracticeDersi extends ReviewBeforeAfterTestBase {
     @Test
