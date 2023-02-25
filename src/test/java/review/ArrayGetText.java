@@ -90,8 +90,7 @@ public class ArrayGetText {
         String expectedTitle = "Charging Case for Ear Buds";
         String actualTitle = driver.findElement(By.xpath("//span[@id='productTitle']")).getText();
 
-       Assert.assertTrue(actualTitle.contains(expectedTitle));
-
+        Assert.assertTrue(actualTitle.contains(expectedTitle));
 
 
     }
