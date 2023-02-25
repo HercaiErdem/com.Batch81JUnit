@@ -17,7 +17,7 @@ public class AllPageAndWebElementScreenShot01 extends TestBaseBeforeClassAfterCl
         // Dell Laptop aratalim
         driver.findElement(By.xpath("//*[@type='text']"))
                 .sendKeys("Dell Laptop", Keys.ENTER);
-        // Tum sayfanin screen shoot ini alalim
+        // Tum sayfanin screen shot ini alalim
         TakesScreenshot ts = (TakesScreenshot) driver;
         File AllPagePic = ts.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(AllPagePic, new File("target/EkranGoruntusu/Allpage.jpeg"));
