@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class AllPageAndWebElementScreenShot01 extends TestBaseBeforeClassAfterClass {
+
     //hepsiburada.com a gidin https://www.hepsiburada.com
     // Dell Laptop aratalim
     // Tum sayfanin screen shor ini alalim
@@ -33,7 +34,7 @@ public class AllPageAndWebElementScreenShot01 extends TestBaseBeforeClassAfterCl
         WebElement electronikButton = driver.findElement
                 (By.xpath("(//li[@class='sf-MenuItems-WulWXvlfIAwNiOUGY7FP'])[1]"));
         File eletronikScreenShot = electronikButton.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(eletronikScreenShot,new File("target/EkranGoruntusuWE/elektronik.jpeg"));
+        FileUtils.copyFile(eletronikScreenShot, new File("target/EkranGoruntusuWE/elektronik.jpeg"));
 
     }
 }
