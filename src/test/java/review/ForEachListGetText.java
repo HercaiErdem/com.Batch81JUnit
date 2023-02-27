@@ -14,8 +14,8 @@ public class ForEachListGetText {
        e. Sonra karşınıza çıkan ilk sonucun resmine tıklayın
      */
 
-        /*
 
+         /*
         System.setProperty("webdriver.chrome.driver", "src/resources/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
@@ -41,8 +41,8 @@ public class ForEachListGetText {
         ilkResimWE.click();
         //Sayfayı kapatınız
         driver.close();
+        */
 
-     */
 
 }
 
