@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class IframeKonsolaYzdirma {
+public class IframeKonsolaYazdirma {
     /*
     Bir class olusturun: IframeTest
     https://the-internet.herokuapp.com/iframe adresine gidin.
