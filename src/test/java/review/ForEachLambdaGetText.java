@@ -142,7 +142,7 @@ public class ForEachLambdaGetText {
         WebElement pageTitle = driver.findElement(By.xpath("//h1"));
 
         // Alt basliktaki "app" yazisini yazdir
-       String[] altTitle = driver.findElement(By.xpath("//h4")).getText().split(" ");
+        String[] altTitle = driver.findElement(By.xpath("//h4")).getText().split(" ");
         System.out.println(altTitle[3]);
 
         //   “Addresses” ve “Sign Out” textlerinin görüntülendiğini( displayed) doğrulayin(verify).
@@ -150,6 +150,5 @@ public class ForEachLambdaGetText {
         //  Sayfada kac tane link oldugunu bulun.
 
     }
-
 
 }
