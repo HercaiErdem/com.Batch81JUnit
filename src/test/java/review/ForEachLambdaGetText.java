@@ -10,7 +10,7 @@ import java.time.*;
 
 public class ForEachLambdaGetText {
 
-/*
+          /*
         1. Bir class oluşturun: LoginTest
         2. Main method oluşturun ve aşağıdaki görevi tamamlayın.
                 a. http://a.testaddressbook.com adresine gidiniz.
@@ -25,7 +25,7 @@ public class ForEachLambdaGetText {
                 f. “Addresses” ve “Sign Out” textlerinin görüntülendiğini( displayed) doğrulayin(verify).
         3. Sayfada kac tane link oldugunu bulun.
         */
-/*
+         /*
     //  a. http://a.testaddressbook.com adresine gidiniz.
         driver.get("http://a.testaddressbook.com");
 
@@ -62,10 +62,10 @@ public class ForEachLambdaGetText {
         System.out.println("Test PASSED");
     } else System.out.println("Test FAILED");
 
-        /*
+
         Bir Webelementin üzerindeki yaziyi konsolda yazdırabilmek için
          getText() methodu kullanılır
-         */
+
          /*
     //  f. “Addresses” ve “Sign Out” textlerinin görüntülendiğini( displayed) doğrulayin(verify).
     WebElement addresses = driver.findElement(By.linkText("Addresses"));
@@ -139,9 +139,6 @@ public class ForEachLambdaGetText {
         String[] altTitle = driver.findElement(By.xpath("//h4")).getText().split(" ");
         System.out.println(altTitle[3]);
 
-        //   “Addresses” ve “Sign Out” textlerinin görüntülendiğini( displayed) doğrulayin(verify).
-
-        //  Sayfada kac tane link oldugunu bulun.
 
     }
 
