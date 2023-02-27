@@ -36,8 +36,8 @@ public class ForEachLambdaGetText {
     WebElement signing = driver.findElement(By.name("commit"));
 
      d. Kullanıcı adını ve şifreyi aşağıya girin ve oturum aç (sign in)buttonunu tıklayın:
- i. Username : testtechproed@gmail.com
-  ii. Password : Test1234!
+    i. Username : testtechproed@gmail.com
+    ii. Password : Test1234!
         Thread.sleep(2000);
         emailTexbox.sendKeys("testtechproed@gmail.com");
         password.sendKeys("Test1234!");
@@ -77,12 +77,12 @@ public class ForEachLambdaGetText {
     } else System.out.println("SignOut Testi FAILED");
 
        3. Sayfada kac tane link oldugunu bulun.
-    List<WebElement> linklerListesi = driver.findElements(By.tagName("a"));
+       List<WebElement> linklerListesi = driver.findElements(By.tagName("a"));
         System.out.println("Linklerin sayisi: " + linklerListesi.size());
         System.out.println(linklerListesi);
-    4. Linkleri yazdirin
+      4. Linkleri yazdirin
 
-    -----1. yol---
+     -----1. yol---
         for (WebElement each : linklerListesi) {
         System.out.println("Linkler: " + each.getText());
 
