@@ -30,6 +30,7 @@ public class JSExecutor01 extends TestBaseBeforeClassAfterClass {
         //  File butonWebElementiSS = tekTıklaGuvenliAlisverisButonu.getScreenshotAs(OutputType.FILE);
         //  FileUtils.copyFile(butonWebElementiSS,new File
         //          ("target/EkranGoruntusuWE/02"+tarih+".jpeg"));
-        //
+
+
     }
 }
