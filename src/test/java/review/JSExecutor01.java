@@ -19,10 +19,10 @@ public class JSExecutor01 extends TestBaseBeforeClassAfterClass {
         // ve butona tiklayalim
         jse.executeScript("arguments[0].click();", tekTıklaGuvenliAlisverisButonu);
 
-        // ss ini alalim
+        //  ss ini alalim
         //  File butonWebElementiSS = tekTıklaGuvenliAlisverisButonu.getScreenshotAs(OutputType.FILE);
         //  FileUtils.copyFile(butonWebElementiSS,new File
-        //          ("target/EkranGoruntusuWE/02"+tarih+".jpeg"));
+        //  ("target/EkranGoruntusuWE/02"+tarih+".jpeg"));
 
 
     }
