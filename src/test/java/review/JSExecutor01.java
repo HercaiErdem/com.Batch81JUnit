@@ -1,17 +1,10 @@
 package review;
 
-import org.apache.commons.io.FileUtils;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.WebElement;
-import reviewUtilities.ReviewBeforeAfterTestBase;
-import utilities.TestBaseBeforeAfter;
-import utilities.TestBaseBeforeClassAfterClass;
+import org.junit.*;
+import org.openqa.selenium.*;
+import utilities.*;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 
 public class JSExecutor01 extends TestBaseBeforeClassAfterClass {
     @Test
