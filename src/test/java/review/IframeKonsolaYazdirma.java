@@ -1,16 +1,11 @@
 package review;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
 
-import java.time.Duration;
+import java.time.*;
 
 public class IframeKonsolaYazdirma {
     /*
@@ -62,7 +57,7 @@ public class IframeKonsolaYazdirma {
     public void tearDown() throws InterruptedException {
         Thread.sleep(1000);
         driver.close();
-    }
 
+    }
 
 }
