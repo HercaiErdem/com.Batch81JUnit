@@ -1,6 +1,7 @@
 package review;
 
 public class Homework {
+
     /*
     Yeni Class olusturun ActionsClassHomeWork
   1- "http://webdriveruniversity.com/Actions" sayfasina gidin  2- Hover over Me First" kutusunun ustune gelin
@@ -20,7 +21,7 @@ public class Homework {
        */
 
       /*
-      -  amazon gidin
+      Amazon gidin
   Arama kutusunun solundaki dropdown menuyu handle edip listesini ekrana yazdırın
   dropdown menude 40 eleman olduğunu doğrulayın
   Test02
@@ -37,7 +38,6 @@ public class Homework {
   5-üçüncü ürüne relative locater kullanarak tıklayin
   6-title ve fiyat bilgilerini assign edelim ve ürünü sepete ekleyin  Test 4
   1-sepetteki ürünlerle eklediğimiz ürünlerin aynı olduğunu isim ve fiyat olarak doğrulayın
-
        */
 
 
