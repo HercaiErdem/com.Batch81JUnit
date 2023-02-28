@@ -36,7 +36,7 @@ public class IframeKonsolaYazdirma {
         yaziIframe.clear();
         Thread.sleep(1000);
         yaziIframe.sendKeys("Merhaba Dunya!");
-        //TextBox’in altinda bulunan “Elemental Selenium” linkini textinin gorunur oldugunu
+        // TextBox’in altinda bulunan “Elemental Selenium” linkini textinin gorunur oldugunu
         // dogrulayin ve konsolda yazdirin
         driver.switchTo().defaultContent();
         WebElement seleniumTest = driver.findElement(By.xpath("//*[text()='Elemental Selenium']"));
