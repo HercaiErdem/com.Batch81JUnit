@@ -9,13 +9,13 @@ public class ReadExcelPractice01 {
 
     @Test
     public void readExcelTest1() throws IOException {
-        //- Dosya yolunu bir String degiskene atayalim
+        // Dosya yolunu bir String degiskene atayalim
         String dosyaYolu = "src/resources/ulkeler.xlsx";
-        //- FileInputStream objesi olusturup,parametre olarak dosya yolunu girelim
+        // FileInputStream objesi olusturup, parametre olarak dosya yolunu girelim
         FileInputStream fis = new FileInputStream(dosyaYolu);
-        //- Workbook objesi olusturalim,parameter olarak fileInputStream objesini girelim
+        // Workbook objesi olusturalim, parameter olarak fileInputStream objesini girelim
         Workbook workbook = WorkbookFactory.create(fis);
-        //   Belirtilen satirNo ve sutunNo degerini parametre olarak alip o cell deki datayi konsola yazdiralim
+        // Belirtilen satirNo ve sutunNo degerini parametre olarak alip o cell deki datayi konsola yazdiralim
         int satir = 8;
         int sutun = 3;
 
