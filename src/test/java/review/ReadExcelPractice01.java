@@ -23,7 +23,7 @@ public class ReadExcelPractice01 {
                 .toString();
         System.out.println(acualData);
 
-        //   Sonucun konsolda yazilanla ayni oldugunu dogrulayin
+        // Sonucun konsolda yazilanla ayni oldugunu dogrulayin
         String expectedResult = "Arjantin";
         Assert.assertTrue(acualData.contains(expectedResult));
 
