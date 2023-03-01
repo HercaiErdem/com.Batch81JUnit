@@ -13,7 +13,7 @@ public class ReadExcelPractice02 {
         FileInputStream fis = new FileInputStream(dosyaYolu);
         Workbook workbook = WorkbookFactory.create(fis);
 
-        //-Ingilizce baskentler sutununu yazdiralim
+        // Ingilizce baskentler sutununu yazdiralim
         int lastRow = workbook.getSheet("Sayfa1").getLastRowNum();
         System.out.println(lastRow);
         String englishCapitalCity = "";
