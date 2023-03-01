@@ -22,10 +22,9 @@ public class ReadExcelPractice02 {
         String englishCapitalCity = "";
 
         for (int i = 0; i <= lastRow; i++) {
-            englishCapitalCity= workbook.getSheet("Sayfa1").getRow(i).getCell(1).toString();
+            englishCapitalCity = workbook.getSheet("Sayfa1").getRow(i).getCell(1).toString();
             System.out.println(englishCapitalCity);
         }
-
 
 
     }
