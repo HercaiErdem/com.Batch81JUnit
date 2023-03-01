@@ -1,12 +1,11 @@
 package review;
 
-import org.apache.commons.io.FileUtils;
-import org.junit.Test;
+import org.apache.commons.io.*;
+import org.junit.*;
 import org.openqa.selenium.*;
-import utilities.TestBaseBeforeAfter;
+import utilities.*;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 
 public class JsExecutor02 extends TestBaseBeforeAfter {
 
