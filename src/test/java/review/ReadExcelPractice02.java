@@ -1,12 +1,9 @@
 package review;
 
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.junit.Test;
+import org.apache.poi.ss.usermodel.*;
+import org.junit.*;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 public class ReadExcelPractice02 {
 
@@ -24,6 +21,7 @@ public class ReadExcelPractice02 {
         for (int i = 0; i <= lastRow; i++) {
             englishCapitalCity = workbook.getSheet("Sayfa1").getRow(i).getCell(1).toString();
             System.out.println(englishCapitalCity);
+
         }
 
 
