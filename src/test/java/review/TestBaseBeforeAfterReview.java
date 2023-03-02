@@ -1,7 +1,7 @@
 package review;
 
-import org.junit.Test;
-import reviewUtilities.ReviewBeforeAfterTestBase;
+import org.junit.*;
+import reviewUtilities.*;
 
 public class TestBaseBeforeAfterReview extends ReviewBeforeAfterTestBase {
 
