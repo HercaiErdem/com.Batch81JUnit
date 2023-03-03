@@ -19,7 +19,7 @@ public class WebTablesPractice01 extends ReviewBeforeAfterClassTestBase {
         Actions actions = new Actions(driver);
         actions.click(userNameBox).sendKeys("manager").sendKeys(Keys.TAB).sendKeys("Manager1!")
                 .sendKeys(Keys.ENTER).perform();
-        // Tüm table body’sinin boyutunu(sutun sayisi) bulun.
+        // Tüm table body’sinin boyutunu(sutun sayisi) bulun
         List<WebElement> sutunSayisi = driver.findElements(By.xpath("//thead//tr//td"));
         System.out.println("Sutun Sayisi: " + sutunSayisi.size());
         WebElement titles = driver.findElement(By.xpath("//thead//tr"));
