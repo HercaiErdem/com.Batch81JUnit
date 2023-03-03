@@ -1,12 +1,9 @@
 package review;
 
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.w3c.dom.stylesheets.LinkStyle;
-import reviewUtilities.ReviewBeforeAfterClassTestBase;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
+import reviewUtilities.*;
 
 import java.util.List;
 
