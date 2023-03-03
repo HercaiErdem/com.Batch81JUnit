@@ -1,14 +1,11 @@
 package review;
 
-import org.apache.commons.io.FileUtils;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.WebElement;
-import utilities.TestBaseBeforeAfter;
+import org.apache.commons.io.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import utilities.*;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 
 public class WebElementGetScreenShot extends TestBaseBeforeAfter {
     @Test
@@ -18,9 +15,7 @@ public class WebElementGetScreenShot extends TestBaseBeforeAfter {
         //HELLO! yazisinin resmini alalim
         WebElement helloWord = driver.findElement(By.xpath("(//div[@class='heading'])[1]"));
         File helloWordGetScreenShot = helloWord.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(helloWordGetScreenShot,new File("target/ekranGoruntusuWE/WESS"+tarih+".jpeg"));
-
-
+        FileUtils.copyFile(helloWordGetScreenShot, new File("target/ekranGoruntusuWE/WESS" + tarih + ".jpeg"));
 
 
     }
