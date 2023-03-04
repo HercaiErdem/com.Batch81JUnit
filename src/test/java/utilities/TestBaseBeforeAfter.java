@@ -14,7 +14,7 @@ import java.time.format.DateTimeFormatter;
 public abstract class TestBaseBeforeAfter {
 
     protected WebDriver driver;
-   protected String tarih;
+    protected String tarih;
 
     @Before
     public void setUp() {
@@ -25,12 +25,12 @@ public abstract class TestBaseBeforeAfter {
 
         LocalDateTime date = LocalDateTime.now();
         DateTimeFormatter formater = DateTimeFormatter.ofPattern("YYMMddHmmss");
-         tarih = date.format(formater);
+        tarih = date.format(formater);
     }
 
     @After
     public void tearDown() throws InterruptedException {
-     //  Thread.sleep(2000);
-     //  driver.quit();
+        //  Thread.sleep(2000);
+        //  driver.quit();
     }
 }
