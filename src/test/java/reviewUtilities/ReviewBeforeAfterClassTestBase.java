@@ -33,12 +33,12 @@ public abstract class ReviewBeforeAfterClassTestBase {
    -- Dolayısıyla, Abstract sınıflardan nesne üretimi gerçekleştirilemez.
    -- Eğer abstract tanımlı bir sınıftan nesne üretmek isterseniz Java hata
    -- Temel sınıf oluşturma ile aynı kurallara sahiptir. Farklı olarak sınıf adı başına “abstract”
-   anahtarı getirilir
+      anahtarı getirilir
    -- Soyut sınıflarda bulunan Constructor yapıları nesne üretmek için değil alt sınıflara istenilen
-    özellikleri gönderebilmek için tasarlanır. Soyut sınıflardan nesne üretilemez.
+      özellikleri gönderebilmek için tasarlanır. Soyut sınıflardan nesne üretilemez.
    --Soyut metotlar “abstract” anahtarı ile public veya protected olacak şekilde tanımlanabilir.
    -- Alt sınıflar, extend ettikleri soyut sınıfta bulunan tüm soyut metotlara sahip olmak, yani
-   bu metotları Override etmek zorundadırlar(
+     bu metotları Override etmek zorundadırlar.
      */
     // Protect Access Modifier; Alt-sınıflar ve aynı pakettekiler erişebilir. Yazmasakta olurdu.
 
