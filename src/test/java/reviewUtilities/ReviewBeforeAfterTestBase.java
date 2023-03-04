@@ -1,12 +1,11 @@
 package reviewUtilities;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
-import org.junit.Before;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.*;
+import org.junit.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
 
-import java.time.Duration;
+import java.time.*;
 
 public abstract class ReviewBeforeAfterTestBase {
 
@@ -23,8 +22,8 @@ public abstract class ReviewBeforeAfterTestBase {
 
     @After
     public void tearDown() throws InterruptedException {
-      // Thread.sleep(2000);
-      // driver.quit();
+        // Thread.sleep(2000);
+        // driver.quit();
     }
 
     // tekrar ederken bu class i kullanicam, tekrar olsun diye
