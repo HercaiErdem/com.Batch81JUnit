@@ -16,7 +16,7 @@ public abstract class TestBaseBeforeClassAfterClass {
     protected static String tarih;
 
     @BeforeClass
-    static public void setUp(){
+    static public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -25,6 +25,7 @@ public abstract class TestBaseBeforeClassAfterClass {
         DateTimeFormatter formater = DateTimeFormatter.ofPattern("YYMMddHmmss");
         tarih = date.format(formater);
     }
+
     @AfterClass
     static public void tearDown() throws InterruptedException {
         //  Thread.sleep(2000);
